@@ -29,6 +29,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # PDF shit
 gem 'prawn'
 
+# So we can use existing PDF templates
+gem 'prawn-templates', '~> 0.0.4'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
