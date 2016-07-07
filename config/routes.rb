@@ -61,4 +61,6 @@ Rails.application.routes.draw do
 
   resources :pdfs
 
+  get 'pdfs/fullbook.pdf', to: 'pdfs#fullbook', as: 'fullbook'
+
 end
